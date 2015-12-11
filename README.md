@@ -16,7 +16,7 @@ First a bit of setup...
 serve up our site locally, so you can test your changes.
    - Download Python 3.5 (or any version is fine) here: https://www.python.org/downloads/
    - Detailed installation instructions: http://www.howtogeek.com/197947/how-to-install-python-on-windows
-- **Install a text editor.** We use a text editor to write code. There are a
+ - **Install a text editor.** We use a text editor to write code. There are a
 million to choose from. If you’re not sure which one to use, why not
 give Atom a try: https://atom.io/
 
