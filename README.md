@@ -53,7 +53,10 @@ cd neighborhoods
 
 Then use python to start a local webserver.
 ```
+# For Python 2
 python -m SimpleHTTPServer
+# For Python 3
+python -m http.server
 ```
 
 Now open a browser and go to "localhost:8000". You should see our haiku map. If not, or if you see some kind of error, there was a problem with setup somewhere. Let us know, and we'll help you figure it out!
