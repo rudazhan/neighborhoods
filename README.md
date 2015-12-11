@@ -33,26 +33,26 @@ The first step is to copy down our repository. This is called cloning.
 
 If you are using the git command line, first open a terminal. Then decide where you want to keep our project files. If you don't know, try running this in your terminal:
 
-```
+```sh
 mkdir GitHub
 cd GitHub
 ```
 That will create a new directory (folder) called GitHub where you can store all your projects.
 
 Then clone our repository:
-```
+```sh
 git clone https://github.com/maptimeLA/neighborhoods.git
 ```
 
 You should now be able to run a local version of our neighborhood haiku app.
 
 In your terminal change to our *project directory* (this is the folder you just cloned).
-```
+```sh
 cd neighborhoods
 ```
 
 Then use python to start a local webserver.
-```
+```python
 # For Python 2
 python -m SimpleHTTPServer
 # For Python 3
@@ -71,7 +71,7 @@ Remember we're writing **place** haikus. So think about the place you want to wr
 
 Since your other terminal is busy serving our website, you'll need a new one. Open another terminal and go to our project directory.
 
-```
+```sh
 cd ~/GitHub/neighborhoods
 git checkout -b echo-park-lake-haiku
 ```
@@ -99,7 +99,7 @@ Committing is how you "snapshot" your changes to git.
 
 If you are using command line git, from your project directory run this:
 
-```
+```sh
 git add haiku.csv
 git commit -m "Added my haiku"
 ```
@@ -112,7 +112,7 @@ So at this point your haiku changes are only in your local git repository. But t
 
 If you are using command line git, from your project directory run this:
 
-```
+```sh
 git push origin echo-park-lake-haiku
 ```
 **Remember** to substitute in whatever your branch name was for "echo-park-lake-haiku"!
